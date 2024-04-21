@@ -1,0 +1,9 @@
+.not-view{
+     /* background: url(../../assets/images/not.jpg); */
+     background-color: #000;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+}

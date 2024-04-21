@@ -1,0 +1,51 @@
+.sidebar{
+     padding: 50px 0 0 0;
+     background: rgb(80, 101, 133);
+     width: 300px;
+     max-width: 300px;
+     height: 100vh;
+}
+
+.sidebar ul{
+     padding: 0 15px;
+}
+
+.sidebar ul li{
+     margin: 10px 0;
+     padding: 10px 5px;
+     border-bottom: 1px solid rgb(235,235,235);
+     border-radius: 3px;
+     color: #fff;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     cursor: pointer;
+}
+
+.sidebar ul li a{
+     color: rgb(255, 255, 255);
+}
+
+.sidebar ul li:hover{
+     background: rgb(71, 100, 147);
+}
+.logo img{
+     width:120px;
+}
+
+@media screen and (max-width: 1400px) {
+     .sidebar{
+          width: 200px;
+     }
+     .sidebar .logo img{
+          width: 100px;
+     }
+}
+
+@media screen and (max-width: 992px) {
+     .sidebar{
+          width: 60px;
+     }
+    
+}

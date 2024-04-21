@@ -1,0 +1,87 @@
+.filter {
+  display: flex;
+  padding: 20px 50px;
+}
+.filter button {
+  margin: 0 10px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #525455;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.filter button:hover{
+    background-color: #ebd973;
+    color: #000;
+    transition:  0.7s ease
+
+}
+.products {
+  display: grid;
+  min-height: 1000px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  opacity: 0; /* Initially hide products */
+  animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.products img{
+width: 300px;
+border-radius: 10px;
+}
+.product{
+    padding: 20px;
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
+     max-height:450px;
+}
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.product p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:230px;
+ }
+@media screen and (max-width: 500px) {
+    .filter {
+        display: grid;
+        grid-template-columns:  1fr;
+        padding: 20px 10px;
+      }
+    .filter button {
+        width: 100%;
+        font-size: 12px;
+        margin: 0 ;
+    }      
+    .products {
+        grid-template-columns:  1fr 1fr;
+        padding: 20px;
+        min-height: 600px;
+      }
+      .product img{
+        /* width:100px; */
+      }
+      .product h2 {
+       font-size: 14px;
+      }
+      .product p {
+        font-size: 0px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width:120px;
+       }
+
+}

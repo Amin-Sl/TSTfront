@@ -1,0 +1,47 @@
+ul.nav-ul li a {
+  color: black !important;
+  font-style: 18px;
+}
+
+ul.nav-ul li {
+  height: 30px;
+}
+ul.nav-ul li {
+  margin-left: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #fff;
+}
+
+ul li:last-child {
+  border: none;
+}
+.nav {
+  display: flex;
+}
+.logo h2 {
+     display: flex;
+  align-items: center;
+font-size: 22px;
+font-weight: 500;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+@media screen and (max-width: 500px) {
+
+        ul.nav-ul li a {
+          color: black !important;
+          font-size: 12px;
+        }
+        ul.nav-ul li {
+          margin-left: 10px;
+          padding-left: 10px;
+        }
+        ul.nav-ul{
+          margin-right: 4px;
+        }
+        .logo h2 {
+     font-size: 17px;
+     color: #000;
+     }
+ }

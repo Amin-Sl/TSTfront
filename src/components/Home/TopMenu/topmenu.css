@@ -1,0 +1,31 @@
+.ads img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.column:first-child {
+  justify-content: start;
+  margin: 10px;
+}
+.column:last-child {
+  justify-content: end;
+  margin: 10px;
+}
+.column span{
+   font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .column:first-child {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+  .column:last-child {
+    justify-content: center;
+    padding-top: 0;
+  }
+  .column span{
+     font-size: 15px;
+  }
+}

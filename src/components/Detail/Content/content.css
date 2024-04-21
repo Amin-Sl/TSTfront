@@ -1,0 +1,23 @@
+.detail-image img{
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     width: 600px;
+     height:600px;
+}
+
+.author img{
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     height: 60px;
+     width: 60px;
+     object-fit: cover;
+}
+@media screen and (max-width: 500px) {
+     
+}
